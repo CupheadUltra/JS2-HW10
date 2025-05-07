@@ -1,9 +1,10 @@
 {
   "name": "js2-hw10",
   "version": "1.0.0",
+  "homepage": "https://cupheadultra.github.io/JS2-HW10/",
   "scripts": {
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./",
+    "build": "parcel build src/index.html --no-cache --public-url /JS2-HW10",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
