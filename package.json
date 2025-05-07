@@ -1,0 +1,19 @@
+{
+  "name": "js2-hw10",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "author": "Sviatoslav Kaluhin",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
